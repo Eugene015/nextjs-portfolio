@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import SkillCard from "./ui/skillCard";
+import SkillCard from "./ui/SkillCard";
 
 const Skills = () => {
   return (
