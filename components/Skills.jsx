@@ -1,5 +1,5 @@
 import React from "react";
-import SkillCard from "./ui/SkillCard";
+import SkillCard from "./ui/SkillCardUi";
 
 const Skills = () => {
   return (
