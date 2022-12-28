@@ -35,7 +35,7 @@
   }
 
   li {
-    @apply text-gray-600 text-xl cursor-pointer;
+    @apply text-xl cursor-pointer;
   }
 
   button {
