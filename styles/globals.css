@@ -23,19 +23,19 @@ html {
   }
 
   h1 {
-    @apply text-5xl sm:text-6xl md:text-7xl;
+    @apply text-4xl sm:text-5xl md:text-6xl;
   }
 
   h2 {
-    @apply text-4xl sm:text-5xl;
+    @apply text-3xl sm:text-4xl;
   }
 
   p {
-    @apply text-gray-600 text-xl;
+    @apply text-gray-600 text-lg;
   }
 
   li {
-    @apply text-xl cursor-pointer;
+    @apply text-lg cursor-pointer;
   }
 
   button {
