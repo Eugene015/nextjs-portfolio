@@ -28,33 +28,57 @@ const Contacts = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Eugene Havrilyuk</h2>
+                <h2 className="pb-2 pt-8">Eugene Havrilyuk</h2>
                 <p>User Interface Engeenier</p>
-                <p className="py-4">
+                <p className="py-6">
                   I`m available for freelance or full-time positions. Contact me
                   and let`s discuss.
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8">Connect With Me</p>
+                <p className="uppercase pt-8 pb-4">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shaddow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg shaddow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shaddow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shaddow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/yevhen-havrilyuk-5ab36261/"
+                    target="_blanc"
+                    title="LinkedIn"
+                  >
+                    <div className="rounded-full shadow-lg shaddow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/Eugene015"
+                    target="_blanc"
+                    title="GitHub"
+                  >
+                    <div className="rounded-full shadow-lg shaddow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </a>
+                  <a
+                    href="mailto:s290812@gmail.com"
+                    target="_blanc"
+                    title="Email"
+                  >
+                    <div className="rounded-full shadow-lg shaddow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
+                  </a>
+                  <a
+                    href="https://drive.google.com/file/d/14EUHVAP_vepnGZocfDt-SfiiL53urUYk/view?usp=share_link"
+                    target="_blanc"
+                    title="My CV"
+                  >
+                    <div className="rounded-full shadow-lg shaddow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          {/* {right} */}
+
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form>
