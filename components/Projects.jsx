@@ -1,5 +1,9 @@
 import React from "react";
 import ProjectCard from "./ui/ProjectCard";
+import zemImg from "../public/assets/projectsImg/project-img1.png";
+import resqImg from "../public/assets/projectsImg/project-img2.png";
+import expensImg from "../public/assets/projectsImg/project-img3.png";
+import fastcoImg from "../public/assets/projectsImg/project-img4.png";
 
 const Projects = () => {
   return (
@@ -12,25 +16,25 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectCard
             title="Fast Company App"
-            bgProjImg="project-img4"
+            bgProjImg={fastcoImg}
             techStack="HTLM, CSS, MongoDB, Express, React, Node"
             projectUrl="/fastcompany"
           />
           <ProjectCard
             title="Expenses App"
-            bgProjImg="project-img3"
+            bgProjImg={expensImg}
             techStack="HTLM, CSS, React"
             projectUrl="/expenses"
           />
           <ProjectCard
             title="Zemlevporyadnik"
-            bgProjImg="project-img1"
+            bgProjImg={zemImg}
             techStack="HTLM, CSS, jQuery"
             projectUrl="/zemlevporyadnik"
           />
           <ProjectCard
             title="Resq Group"
-            bgProjImg="project-img2"
+            bgProjImg={resqImg}
             techStack="HTLM, CSS, jQuery"
             projectUrl="/resq"
           />

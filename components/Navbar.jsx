@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
+import NavLogo from "../public/assets/profile-logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -48,18 +49,13 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
-          : "fixed w-full h-20 z-[100]"
+          ? "fixed w-full h-28 shadow-xl z-[100]"
+          : "fixed w-full h-28 z-[100]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
         <Link href="/">
-          <Image
-            src="/../public/assets/profile-logo.png"
-            alt="/"
-            width="300"
-            height="80"
-          />
+          <Image src={NavLogo} alt="/" width="300" height="80" />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -110,12 +106,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image
-                  src="/../public/assets/profile-logo.png"
-                  alt="/"
-                  width="300"
-                  height="80"
-                />
+                <Image src={NavLogo} alt="/" width="300" height="80" />
               </Link>
               <div
                 onClick={handleNav}

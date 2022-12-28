@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import AboutImg from "../public/assets/about_pic.jpg";
 
 const About = () => {
   return (
@@ -65,12 +66,7 @@ const About = () => {
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image
-            src="/../public/assets/about_pic.jpg"
-            width="467"
-            height="576"
-            alt="/"
-          />
+          <Image src={AboutImg} width="467" height="576" alt="/" />
         </div>
       </div>
     </div>

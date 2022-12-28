@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
 import Image from "next/image";
+import ContactImg from "../public/assets/contacts_pic.jpg";
 
 const Contacts = () => {
   return (
@@ -20,7 +21,7 @@ const Contacts = () => {
               <div>
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="/../public/assets/contacts_pic.jpg"
+                  src={ContactImg}
                   width="874"
                   height="580"
                   alt="/"
