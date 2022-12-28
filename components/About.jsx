@@ -6,7 +6,7 @@ import AboutImg from "../public/assets/about_pic.jpg";
 const About = () => {
   return (
     <div id="about" className="w-full p-2 flex items-center py-16">
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-16">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
@@ -39,29 +39,30 @@ const About = () => {
           <ul className="py-2 ml-8">
             <li className="cursor-default  flex space-x-3">
               <svg
-                class="flex-shrink-0 w-5 h-5 mt-1 text-green-500 dark:text-green-400"
+                className="w-5 h-5 mt-1 text-[#5651e5] dark:text-[#5651e5] flex-shrink-0"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                   clip-rule="evenodd"
                 ></path>
               </svg>
+
               <span>write basic react markup structure of React SPA;</span>
             </li>
             <li className="cursor-default py-2  flex space-x-3">
               <svg
-                class="flex-shrink-0 w-5 h-5 mt-1 text-green-500 dark:text-green-400"
+                className="w-5 h-5 mt-1 text-[#5651e5] dark:text-[#5651e5] flex-shrink-0"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                   clip-rule="evenodd"
                 ></path>
               </svg>
@@ -73,14 +74,14 @@ const About = () => {
             </li>
             <li className="cursor-default py-2 flex space-x-3">
               <svg
-                class="flex-shrink-0 w-5 h-5 mt-1 text-green-500 dark:text-green-400"
+                className="w-5 h-5 mt-1 text-[#5651e5] dark:text-[#5651e5] flex-shrink-0"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                   clip-rule="evenodd"
                 ></path>
               </svg>
@@ -91,14 +92,14 @@ const About = () => {
             </li>
             <li className="cursor-default py-2 flex space-x-3">
               <svg
-                class="flex-shrink-0 w-5 h-5 mt-1 text-green-500 dark:text-green-400"
+                className="w-5 h-5 mt-1 text-[#5651e5] dark:text-[#5651e5] flex-shrink-0"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                   clip-rule="evenodd"
                 ></path>
               </svg>
@@ -109,14 +110,14 @@ const About = () => {
             </li>
             <li className="cursor-default py-2 flex space-x-3">
               <svg
-                class="flex-shrink-0 w-5 h-5 mt-1 text-green-500 dark:text-green-400"
+                className="w-5 h-5 mt-1 text-[#5651e5] dark:text-[#5651e5] flex-shrink-0"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                   clip-rule="evenodd"
                 ></path>
               </svg>
@@ -130,12 +131,12 @@ const About = () => {
           </p>
           <div className="flex items-center justify-center md:block">
             <Link href="/#projects">
-              <button className="mt-6">Let`s see my latest works</button>
+              <button className="my-6">Let`s see my latest works</button>
             </Link>
           </div>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image src={AboutImg} width="467" height="576" alt="/" />
+          <Image src={AboutImg} width="600" height="906" alt="/" />
         </div>
       </div>
     </div>
