@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
   font-family: "Raleway", sans-serif;
 }
 
@@ -35,7 +35,7 @@ html {
   }
 
   li {
-    @apply text-lg cursor-pointer;
+    @apply text-lg text-gray-600 cursor-pointer;
   }
 
   button {
