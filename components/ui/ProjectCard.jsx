@@ -8,8 +8,8 @@ const ProjectCard = ({ title, bgProjImg, projectUrl, techStack }) => {
       <Image
         className="rounded-xl group-hover:opacity-10"
         src={bgProjImg}
-        width="519"
-        height="380"
+        width="600"
+        height="417"
         alt="/"
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">

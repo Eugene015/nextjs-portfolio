@@ -27,7 +27,7 @@ const Skills = () => {
           <SkillCard img={Javascript} skill="javascript" />
           <SkillCard img={ReactImg} skill="react" />
           <SkillCard img={NextJS} skill="nextjs" />
-          <SkillCard img={Github} skill="github1" />
+          <SkillCard img={Github} skill="github" />
           <SkillCard img={Firebase} skill="firebase" />
           <SkillCard img={MongoDb} skill="mongo" />
           <SkillCard img={Express} skill="express" />

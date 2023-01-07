@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ui/ProjectCard";
-import zemImg from "../public/assets/projectsImg/project-img1.png";
+import zemImg from "../public/assets/projectsImg/zem.jpg";
 import resqImg from "../public/assets/projectsImg/project-img2.png";
 import expensImg from "../public/assets/projectsImg/project-img3.png";
 import fastcoImg from "../public/assets/projectsImg/project-img4.png";

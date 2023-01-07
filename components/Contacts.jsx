@@ -79,13 +79,21 @@ const Contacts = () => {
             </div>
           </div>
 
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 relative">
+            <div className="rounded-lg absolute top-[30%] left-[30%] max-w-[300px] bg-[#5651e5] py-4 px-8 z-2">
+              <p className="text-white">
+                This contact form needs backend server. Now it is unfortunetly
+                unavailable, sorry. Please, use other contact options.
+              </p>
+            </div>
+
             <div className="p-4">
               <form>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
+                      disabled
                       className="border-2 rounded-lg p-3 border-gray-300"
                       type="text"
                     />
@@ -95,6 +103,7 @@ const Contacts = () => {
                       Phone Number
                     </label>
                     <input
+                      disabled
                       className="border-2 rounded-lg p-3 border-gray-300"
                       type="text"
                     />
@@ -103,6 +112,7 @@ const Contacts = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
+                    disabled
                     className="border-2 rounded-lg p-3 border-gray-300"
                     type="email"
                   />
@@ -110,6 +120,7 @@ const Contacts = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
+                    disabled
                     className="border-2 rounded-lg p-3 border-gray-300"
                     type="text"
                   />
@@ -117,27 +128,28 @@ const Contacts = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
+                    disabled
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
+                <button disabled className="w-full p-4 text-gray-100 mt-4">
                   Send Message
                 </button>
               </form>
             </div>
           </div>
         </div>
-        <div className="flex justify-center py-12">
-          <Link href="/">
-            <div className="rounded-full shadow-lg shaddow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp
-                size={30}
-                className="text-[#5651e5] m-auto"
-              />
-            </div>
-          </Link>
-        </div>
+      </div>
+      <div className="flex justify-center py-12">
+        <Link href="/">
+          <div className="rounded-full shadow-lg shaddow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <HiOutlineChevronDoubleUp
+              size={30}
+              className="text-[#5651e5] m-auto"
+            />
+          </div>
+        </Link>
       </div>
     </div>
   );
