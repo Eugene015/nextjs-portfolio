@@ -82,8 +82,9 @@ const Contacts = () => {
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 relative">
             <div className="rounded-lg absolute top-[30%] left-[30%] max-w-[300px] bg-[#5651e5] py-4 px-8 z-2">
               <p className="text-white">
-                This contact form needs backend server. Now it is unfortunetly
-                unavailable, sorry. Please, use other contact options.
+                This contact form needs a backend server. Now it is
+                unfortunately unavailable, sorry. Please, use other contact
+                options.
               </p>
             </div>
 
