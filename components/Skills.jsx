@@ -21,17 +21,17 @@ const Skills = () => {
         </p>
         <h2 className="py-4">What I Can Do</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          <SkillCard img={Html} skill="html" />
-          <SkillCard img={Css} skill="css" />
-          <SkillCard img={Tailwind} skill="tailwind" />
-          <SkillCard img={Javascript} skill="javascript" />
-          <SkillCard img={ReactImg} skill="react" />
-          <SkillCard img={NextJS} skill="nextjs" />
-          <SkillCard img={Github} skill="github" />
-          <SkillCard img={Firebase} skill="firebase" />
-          <SkillCard img={MongoDb} skill="mongo" />
-          <SkillCard img={Express} skill="express" />
-          <SkillCard img={Node} skill="node" />
+          <SkillCard img={Html} skill="HTML" />
+          <SkillCard img={Css} skill="CSS" />
+          <SkillCard img={Tailwind} skill="TAILWIND" />
+          <SkillCard img={Javascript} skill="JAVASCRIPT" />
+          <SkillCard img={ReactImg} skill="REACT" />
+          <SkillCard img={NextJS} skill="NEXTJS" />
+          <SkillCard img={Github} skill="GITHUB" />
+          <SkillCard img={Firebase} skill="FIREBASE" />
+          <SkillCard img={MongoDb} skill="MONGODB" />
+          <SkillCard img={Express} skill="EXPRESS" />
+          <SkillCard img={Node} skill="NODEJS" />
         </div>
       </div>
     </div>

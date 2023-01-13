@@ -35,8 +35,17 @@ const Contacts = () => {
                   and let`s discuss.
                 </p>
               </div>
+              <div className="pb-6">
+                <p className="font-bold">My numbers:</p>
+                <p>+380 63 855 4120</p>
+                <p>+36 30 340 7255</p>
+              </div>
+              <div className="pb-6">
+                <p className="font-bold">My email:</p>
+                <p>egavriluk@gmail.com</p>
+              </div>
               <div>
-                <p className="uppercase pt-8 pb-4">Connect With Me</p>
+                <p className="uppercase pt-8 pb-4 font-bold">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
                     href="https://www.linkedin.com/in/yevhen-havrilyuk-5ab36261/"
@@ -80,61 +89,47 @@ const Contacts = () => {
           </div>
 
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 relative">
-            <div className="rounded-lg absolute top-[30%] left-[30%] max-w-[300px] bg-[#5651e5] py-4 px-8 z-2">
+            {/* <div className="rounded-lg absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] max-w-[300px] bg-[#5651e5] py-4 px-8 z-2">
               <p className="text-white">
                 This contact form needs a backend server. Now it is
                 unfortunately unavailable, sorry. Please, use other contact
                 options.
               </p>
-            </div>
+            </div> */}
 
             <div className="p-4">
-              <form>
-                <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+              <form
+                action="https://getform.io/f/f6f4b970-025e-43ec-a334-41dc5824d422"
+                method="POST"
+              >
+                <div className="w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
-                      disabled
                       className="border-2 rounded-lg p-3 border-gray-300"
                       type="text"
-                    />
-                  </div>
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
-                      Phone Number
-                    </label>
-                    <input
-                      disabled
-                      className="border-2 rounded-lg p-3 border-gray-300"
-                      type="text"
+                      name="name"
                     />
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
-                    disabled
                     className="border-2 rounded-lg p-3 border-gray-300"
                     type="email"
+                    name="email"
                   />
                 </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Subject</label>
-                  <input
-                    disabled
-                    className="border-2 rounded-lg p-3 border-gray-300"
-                    type="text"
-                  />
-                </div>
+
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
-                    disabled
                     className="border-2 rounded-lg p-3 border-gray-300"
-                    rows="10"
+                    rows="20"
+                    name="message"
                   ></textarea>
                 </div>
-                <button disabled className="w-full p-4 text-gray-100 mt-4">
+                <button className="w-full p-4 text-gray-100 mt-4">
                   Send Message
                 </button>
               </form>

@@ -1,9 +1,11 @@
 import React from "react";
 import ProjectCard from "./ui/ProjectCard";
 import zemImg from "../public/assets/projectsImg/zem.jpg";
-import resqImg from "../public/assets/projectsImg/project-img2.png";
-import expensImg from "../public/assets/projectsImg/project-img3.png";
-import fastcoImg from "../public/assets/projectsImg/project-img4.png";
+import productImg from "../public/assets/projectsImg/productlist.jpg";
+import tasksImg from "../public/assets/projectsImg/todolist.jpg";
+import expensImg from "../public/assets/projectsImg/expenses.jpg";
+import fastcoImg from "../public/assets/projectsImg/fast.jpg";
+import bookingImg from "../public/assets/projectsImg/booking.jpg";
 
 const Projects = () => {
   return (
@@ -14,6 +16,12 @@ const Projects = () => {
         </p>
         <h2 className="py-6">My Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectCard
+            title="React Booking App"
+            bgProjImg={bookingImg}
+            techStack="HTLM, CSS, MongoDB, Express, React, Node"
+            projectUrl="/booking"
+          />
           <ProjectCard
             title="Fast Company App"
             bgProjImg={fastcoImg}
@@ -27,16 +35,22 @@ const Projects = () => {
             projectUrl="/expenses"
           />
           <ProjectCard
+            title="Products List"
+            bgProjImg={productImg}
+            techStack="HTLM, CSS, React"
+            projectUrl="/productlist"
+          />
+          <ProjectCard
+            title="Tasks List"
+            bgProjImg={tasksImg}
+            techStack="HTLM, CSS, React"
+            projectUrl="/todolist"
+          />
+          <ProjectCard
             title="Zemlevporyadnik"
             bgProjImg={zemImg}
             techStack="HTLM, CSS, jQuery"
             projectUrl="/zemlevporyadnik"
-          />
-          <ProjectCard
-            title="Resq Group"
-            bgProjImg={resqImg}
-            techStack="HTLM, CSS, jQuery"
-            projectUrl="/resq"
           />
         </div>
       </div>

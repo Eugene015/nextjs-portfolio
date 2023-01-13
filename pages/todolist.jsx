@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import fastCompanyImg from "../public/assets/projectsBg/fastcompany.jpg";
+import todoImg from "../public/assets/projectsBg/todolist.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const FastCompany = () => {
+const TodoList = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[40vh] lg:h-[50vh] relative">
@@ -13,13 +13,13 @@ const FastCompany = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={fastCompanyImg}
+          src={todoImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Fast Company</h2>
-          <h3 className="py-2 text-gray-400">Social website</h3>
-          <h3>HTML / CSS / MongoDB / Express / React / Node</h3>
+          <h2 className="py-2">Todo List App</h2>
+          <h3 className="py-2 text-gray-400">React Practice</h3>
+          <h3>HTML / CSS / React</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -27,22 +27,18 @@ const FastCompany = () => {
           <p className="py-2 ">Project</p>
           <h2>Overview</h2>
           <p className="py-8">
-            My fundamental React educational project based on React JS
-            technology uses functional components and hooks (useState,
-            useEffect, customHooks, HOCs, Redux Toolkit, Axios, npm plugins, and
-            libraries). On backend there are NodeJS, Express and MongoDB. The
-            project has implemented filtering, sorting, pagination, searching,
-            logIn, SignUp, logOut, routing to multiple pages and other features.
+            Educational project based on React JS technology using functional
+            components and hooks (useState).
           </p>
           <a
-            href="https://young-shore-49494.herokuapp.com/"
+            href="https://eugene015.github.io/react_tasks_list/"
             target="_blanc"
             title="Demo"
           >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a
-            href="https://github.com/Eugene015/fast-company"
+            href="https://github.com/Eugene015/react_tasks_list"
             target="_blanc"
             title="Code"
           >
@@ -61,23 +57,11 @@ const FastCompany = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-2" />
-                CSS (Bootstrap)
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-2" />
-                MongoDB
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-2" />
-                Express
+                CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-2" />
                 React
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-2" />
-                Node
               </p>
             </div>
           </div>
@@ -90,4 +74,4 @@ const FastCompany = () => {
   );
 };
 
-export default FastCompany;
+export default TodoList;

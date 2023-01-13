@@ -27,15 +27,29 @@ const Zemlevporyadnik = () => {
           <p className="py-2 ">Project</p>
           <h2>Overview</h2>
           <p className="py-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Exercitationem, est? Architecto ipsam dolorum doloribus ab fuga ad
-            illum iusto et placeat. Ipsum repudiandae repellendus esse
-            doloremque, et fuga quasi. Tenetur maiores consectetur impedit
-            vitae. Quae rerum nesciunt quasi perspiciatis dolor magni beatae,
-            fugiat eaque iste laborum voluptatum, officia neque dicta.
+            Early commercial project{" "}
+            <a
+              className="hover:underline text-[#5651e5]"
+              href="https://zemlevporyadnik.com.ua/"
+              target="_blanc"
+              title="zemlevporyadnik.com.ua"
+            >
+              zemlevporyadnik.com.ua
+            </a>{" "}
+            based on a clean HTML, CSS, and jQuery stack. It is quite fast and
+            lightweight, with valuable and relevant content. It has leading
+            positions in its niche and up to 6500 unique users per day of
+            organic Google traffic.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a
+            href="https://zemlevporyadnik.com.ua/"
+            target="_blanc"
+            title="zemlevporyadnik.com.ua"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">
+              zemlevporyadnik.com.ua
+            </button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 min-w-[250px]">
           <div className="p-2">

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import expensesImg from "../public/assets/projectsBg/expenses_scr.jpg";
+import expensesImg from "../public/assets/projectsBg/expenses.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const Expenses = () => {
@@ -27,15 +27,24 @@ const Expenses = () => {
           <p className="py-2 ">Project</p>
           <h2>Overview</h2>
           <p className="py-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Exercitationem, est? Architecto ipsam dolorum doloribus ab fuga ad
-            illum iusto et placeat. Ipsum repudiandae repellendus esse
-            doloremque, et fuga quasi. Tenetur maiores consectetur impedit
-            vitae. Quae rerum nesciunt quasi perspiciatis dolor magni beatae,
-            fugiat eaque iste laborum voluptatum, officia neque dicta.
+            Educational project based on React JS technology using functional
+            components and hooks (useState, useEffect), props, npm pluging and
+            libraries.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a
+            href="https://eugene015.github.io/expenses_react_app/"
+            target="_blanc"
+            title="Demo"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a
+            href="https://github.com/Eugene015/expenses_react_app"
+            target="_blanc"
+            title="Code"
+          >
+            <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 min-w-[250px]">
           <div className="p-2">
