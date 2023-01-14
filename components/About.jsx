@@ -14,7 +14,7 @@ const About = () => {
           <h2 className="py-4">Who I am</h2>
 
           <p className="py-2">
-            My name is Eugene Havryliuk. A long time ago I got interested in web
+            My name is Eugene Havrilyuk. A long time ago I got interested in web
             technologies. Till 2022 I practiced developing MPA static websites,
             content management, SEO optimization, and promotion.
           </p>
