@@ -35,15 +35,6 @@ const Contacts = () => {
                   and let`s discuss.
                 </p>
               </div>
-              <div className="pb-6">
-                <p className="font-bold">My numbers:</p>
-                <p>+380 63 855 4120</p>
-                <p>+36 30 340 7255</p>
-              </div>
-              <div className="pb-6">
-                <p className="font-bold">My email:</p>
-                <p>egavriluk@gmail.com</p>
-              </div>
               <div>
                 <p className="uppercase pt-8 pb-4 font-bold">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
@@ -75,7 +66,7 @@ const Contacts = () => {
                     </div>
                   </a>
                   <a
-                    href="https://drive.google.com/file/d/14EUHVAP_vepnGZocfDt-SfiiL53urUYk/view?usp=share_link"
+                    href="https://drive.google.com/file/d/1EiEuhVXXe97VDevn2PTzSlIMDXhx92P1/view?usp=sharing"
                     target="_blanc"
                     title="My CV"
                   >
@@ -89,14 +80,6 @@ const Contacts = () => {
           </div>
 
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 relative">
-            {/* <div className="rounded-lg absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] max-w-[300px] bg-[#5651e5] py-4 px-8 z-2">
-              <p className="text-white">
-                This contact form needs a backend server. Now it is
-                unfortunately unavailable, sorry. Please, use other contact
-                options.
-              </p>
-            </div> */}
-
             <div className="p-4">
               <form
                 action="https://getform.io/f/f6f4b970-025e-43ec-a334-41dc5824d422"
@@ -125,7 +108,7 @@ const Contacts = () => {
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
-                    rows="20"
+                    rows="12"
                     name="message"
                   ></textarea>
                 </div>

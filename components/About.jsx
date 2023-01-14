@@ -57,7 +57,9 @@ const About = () => {
                   clip-rule="evenodd"
                 ></path>
               </svg>
-              <span>make authorization forms (sign-in, signups);</span>
+              <span>
+                create authorization website services (sign-in, signups);
+              </span>
             </li>
             <li className="cursor-default py-2 flex space-x-3">
               <svg

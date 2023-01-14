@@ -10,28 +10,28 @@ import NavLogo from "../public/assets/profile-logo.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShaddow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
-  const [linkColor, setLinkColor] = useState("#f1f1f1");
-  const router = useRouter();
-  console.log(router.asPath);
+  // const [navBg, setNavBg] = useState("#ecf0f3");
+  // const [linkColor, setLinkColor] = useState("#f1f1f1");
+  // const router = useRouter();
+  // console.log(router.asPath);
 
-  useEffect(() => {
-    if (
-      router.asPath === "/zemlevporyadnik" ||
-      router.asPath === "/resq" ||
-      router.asPath === "/expenses" ||
-      router.asPath === "/fastcompany" ||
-      router.asPath === "/booking" ||
-      router.asPath === "/productlist" ||
-      router.asPath === "/todolist"
-    ) {
-      setNavBg("transparent");
-      setLinkColor("#f1f1f1");
-    } else {
-      setNavBg("#ecf0f3");
-      setLinkColor("#1f2937");
-    }
-  }, [router]);
+  // useEffect(() => {
+  //   if (
+  //     router.asPath === "/zemlevporyadnik" ||
+  //     router.asPath === "/resq" ||
+  //     router.asPath === "/expenses" ||
+  //     router.asPath === "/fastcompany" ||
+  //     router.asPath === "/booking" ||
+  //     router.asPath === "/productlist" ||
+  //     router.asPath === "/todolist"
+  //   ) {
+  //     setNavBg("transparent");
+  //     setLinkColor("#f1f1f1");
+  //   } else {
+  //     setNavBg("#ecf0f3");
+  //     setLinkColor("#1f2937");
+  //   }
+  // }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -49,48 +49,41 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div
-      style={{ backgroundColor: `${navBg}` }}
-      className={
-        shadow
-          ? "fixed w-full h-28 shadow-xl z-[100]"
-          : "fixed w-full h-28 z-[100]"
-      }
-    >
+    <div className="w-full h-28 z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
         <Link href="/">
           <Image src={NavLogo} alt="/" width="300" height="80" />
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
+          <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-base uppercase hover:border-b hover:font-bold border-gray-700">
+              <li className="ml-10 text-base uppercase hover:font-bold border-gray-700">
                 Home
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-base uppercase hover:border-b hover:font-bold border-gray-700">
+              <li className="ml-10 text-base uppercase hover:font-bold border-gray-700">
                 About
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-base uppercase hover:border-b hover:font-bold border-gray-700">
+              <li className="ml-10 text-base uppercase hover:font-bold border-gray-700">
                 Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-base uppercase hover:border-b hover:font-bold border-gray-700">
+              <li className="ml-10 text-base uppercase hover:font-bold border-gray-700">
                 Projects
               </li>
             </Link>
             <Link href="/#contacts">
-              <li className="ml-10 text-base uppercase hover:border-b hover:font-bold border-gray-700">
+              <li className="ml-10 text-base uppercase hover:font-bold border-gray-700">
                 Contact
               </li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
-            <AiOutlineMenu size={25} fill={linkColor} />
+            <AiOutlineMenu size={25} />
           </div>
         </div>
       </div>
