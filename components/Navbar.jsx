@@ -194,7 +194,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1EiEuhVXXe97VDevn2PTzSlIMDXhx92P1/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1EoCECA1fcKyEwdQPogTdUwcxEnmnxyAp/view?usp=sharing"
                   target="_blanc"
                   title="My CV"
                 >
