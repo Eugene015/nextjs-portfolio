@@ -10,28 +10,6 @@ import NavLogo from "../public/assets/profile-logo.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShaddow] = useState(false);
-  // const [navBg, setNavBg] = useState("#ecf0f3");
-  // const [linkColor, setLinkColor] = useState("#f1f1f1");
-  // const router = useRouter();
-  // console.log(router.asPath);
-
-  // useEffect(() => {
-  //   if (
-  //     router.asPath === "/zemlevporyadnik" ||
-  //     router.asPath === "/resq" ||
-  //     router.asPath === "/expenses" ||
-  //     router.asPath === "/fastcompany" ||
-  //     router.asPath === "/booking" ||
-  //     router.asPath === "/productlist" ||
-  //     router.asPath === "/todolist"
-  //   ) {
-  //     setNavBg("transparent");
-  //     setLinkColor("#f1f1f1");
-  //   } else {
-  //     setNavBg("#ecf0f3");
-  //     setLinkColor("#1f2937");
-  //   }
-  // }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
