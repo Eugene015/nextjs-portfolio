@@ -19,37 +19,37 @@ const Projects = () => {
           <ProjectCard
             title="React Booking App"
             bgProjImg={bookingImg}
-            techStack="HTLM, CSS, MongoDB, Express, React, Node"
+            techStack="HTML, CSS, MongoDB, Express, React, Node"
             projectUrl="/booking"
           />
           <ProjectCard
             title="Fast Company App"
             bgProjImg={fastcoImg}
-            techStack="HTLM, CSS, MongoDB, Express, React, Node"
+            techStack="HTML, CSS, MongoDB, Express, React, Node"
             projectUrl="/fastcompany"
           />
           <ProjectCard
             title="Expenses App"
             bgProjImg={expensImg}
-            techStack="HTLM, CSS, React"
+            techStack="HTML, CSS, React"
             projectUrl="/expenses"
           />
           <ProjectCard
             title="Products List"
             bgProjImg={productImg}
-            techStack="HTLM, CSS, React"
+            techStack="HTML, CSS, React"
             projectUrl="/productlist"
           />
           <ProjectCard
             title="Tasks List"
             bgProjImg={tasksImg}
-            techStack="HTLM, CSS, React"
+            techStack="HTML, CSS, React"
             projectUrl="/todolist"
           />
           <ProjectCard
             title="Zemlevporyadnik"
             bgProjImg={zemImg}
-            techStack="HTLM, CSS, jQuery"
+            techStack="HTML, CSS, jQuery"
             projectUrl="/zemlevporyadnik"
           />
         </div>
