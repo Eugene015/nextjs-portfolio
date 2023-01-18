@@ -11,6 +11,7 @@ import NextJS from "../public/assets/skills/nextjs.png";
 import MongoDb from "../public/assets/skills/mongo.png";
 import Express from "../public/assets/skills/express.png";
 import Node from "../public/assets/skills/node.png";
+import ReduxToolkit from "../public/assets/skills/redux_purple.png";
 
 const Skills = () => {
   return (
@@ -32,6 +33,7 @@ const Skills = () => {
           <SkillCard img={MongoDb} skill="MONGODB" />
           <SkillCard img={Express} skill="EXPRESS" />
           <SkillCard img={Node} skill="NODEJS" />
+          <SkillCard img={ReduxToolkit} skill="REDUX TOOLKIT" />
         </div>
       </div>
     </div>
