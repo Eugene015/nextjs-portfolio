@@ -24,14 +24,14 @@ const Booking = () => {
             in Result School. It is based on React JS technology, using MongoDB,
             NodeJS, Express, Redux Toolkit, npm plugins and libraries etc.
           </p>
-          <p>
+          <p className="py-4">
             You could book separate rooms in the hotel, and choose category,
             dates, and guest quantity. After clicking the search button you will
             be routed to the appropriate category rooms list. When the desired
             room is chosen, you will proceed to the booking summary page of the
             chosen room.
           </p>
-          <p>
+          <p className="py-4">
             After booking confirming the system will redirect you to your
             personal profile page. There will be all your current bookings with
             all the nercersary information, and booking delete options as well.
@@ -56,7 +56,7 @@ const Booking = () => {
             </p>
           </Link>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 min-w-[250px]">
+        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 min-w-[250px] h-fit">
           <div className="p-2">
             <div className="bg-gray-200 rounded-lg py-2 px-4">
               <p className="font-bold">Technologies</p>

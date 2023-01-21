@@ -48,7 +48,7 @@ const FastCompany = () => {
             </p>
           </Link>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 min-w-[250px]">
+        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 min-w-[250px] h-fit">
           <div className="p-2">
             <div className="bg-gray-200 rounded-lg py-2 px-4">
               <p className="font-bold">Technologies</p>
