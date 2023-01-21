@@ -24,6 +24,18 @@ const Booking = () => {
             in Result School. It is based on React JS technology, using MongoDB,
             NodeJS, Express, Redux Toolkit, npm plugins and libraries etc.
           </p>
+          <p>
+            You could book separate rooms in the hotel, and choose category,
+            dates, and guest quantity. After clicking the search button you will
+            be routed to the appropriate category rooms list. When the desired
+            room is chosen, you will proceed to the booking summary page of the
+            chosen room.
+          </p>
+          <p>
+            After booking confirming the system will redirect you to your
+            personal profile page. There will be all your current bookings with
+            all the nercersary information, and booking delete options as well.
+          </p>
           <a
             href="https://fathomless-bastion-42222.herokuapp.com/"
             target="_blanc"
