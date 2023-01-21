@@ -13,7 +13,7 @@ const ProductList = () => {
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto px-4 grid md:grid-cols-5 gap-2 py-16">
-        <div className="col-span-4 ">
+        <div className="col-span-4 md:pr-24">
           <div className="max-w-[1240px] w-full  pb-4">
             <h2 className="py-2">Products List</h2>
             <h3 className="py-2 text-gray-400">React Practice</h3>
@@ -30,7 +30,7 @@ const ProductList = () => {
             target="_blanc"
             title="Demo"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            <button className="px-8 py-2 mt-8 mr-8">Demo</button>
           </a>
           <a
             href="https://github.com/Eugene015/react-product-list"

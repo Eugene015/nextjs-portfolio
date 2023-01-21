@@ -13,7 +13,7 @@ const Booking = () => {
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto px-4 grid md:grid-cols-5 gap-2 py-16">
-        <div className="col-span-4 ">
+        <div className="col-span-4 md:pr-24">
           <div className="max-w-[1240px] w-full  pb-4">
             <h2 className="py-2">React Booking App</h2>
             <h3 className="py-2 text-gray-400">Booking website</h3>
@@ -24,14 +24,14 @@ const Booking = () => {
             in Result School. It is based on React JS technology, using MongoDB,
             NodeJS, Express, Redux Toolkit, npm plugins and libraries etc.
           </p>
-          <p className="py-4">
+          <p className="pb-4">
             You could book separate rooms in the hotel, and choose category,
             dates, and guest quantity. After clicking the search button you will
             be routed to the appropriate category rooms list. When the desired
             room is chosen, you will proceed to the booking summary page of the
             chosen room.
           </p>
-          <p className="py-4">
+          <p className="pb-4">
             After booking confirming the system will redirect you to your
             personal profile page. There will be all your current bookings with
             all the nercersary information, and booking delete options as well.
@@ -41,7 +41,7 @@ const Booking = () => {
             target="_blanc"
             title="Demo"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            <button className="px-8 py-2 mt-8 mr-8">Demo</button>
           </a>
           <a
             href="https://github.com/Eugene015/react-booking-app-d"
