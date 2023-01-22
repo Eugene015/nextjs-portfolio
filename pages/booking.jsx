@@ -15,7 +15,7 @@ const Booking = () => {
       <div className="max-w-[1240px] mx-auto px-4 grid md:grid-cols-5 gap-2 py-16">
         <div className="col-span-4 md:pr-24">
           <div className="max-w-[1240px] w-full  pb-4">
-            <h2 className="py-2">React Booking App</h2>
+            <h2 className="py-2">Full Stack Booking App</h2>
             <h3 className="py-2 text-gray-400">Booking website</h3>
             <h3>HTML / CSS / MongoDB / Express / React / Node</h3>
           </div>
