@@ -6,6 +6,7 @@ import tasksImg from "../public/assets/projectsImg/todolist.jpg";
 import expensImg from "../public/assets/projectsImg/expenses.jpg";
 import fastcoImg from "../public/assets/projectsImg/fast.jpg";
 import bookingImg from "../public/assets/projectsImg/booking.jpg";
+import dashImg from "../public/assets/projectsImg/dashboard_s.jpg";
 
 const Projects = () => {
   return (
@@ -27,6 +28,12 @@ const Projects = () => {
             bgProjImg={fastcoImg}
             techStack="HTML, CSS, MongoDB, Express, React, Node"
             projectUrl="/fastcompany"
+          />
+          <ProjectCard
+            title="Dashboard App"
+            bgProjImg={dashImg}
+            techStack="HTML, CSS, NextJS"
+            projectUrl="/dashboard"
           />
           <ProjectCard
             title="Expenses App"

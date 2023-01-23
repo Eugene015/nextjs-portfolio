@@ -31,9 +31,9 @@ const FastCompany = () => {
           <a
             href="https://young-shore-49494.herokuapp.com/"
             target="_blanc"
-            title="Demo"
+            title="Live"
           >
-            <button className="px-8 py-2 mt-8 mr-8">Demo</button>
+            <button className="px-8 py-2 mt-8 mr-8">Live</button>
           </a>
           <a
             href="https://github.com/Eugene015/fast-company"
