@@ -7,6 +7,7 @@ import expensImg from "../public/assets/projectsImg/expenses.jpg";
 import fastcoImg from "../public/assets/projectsImg/fast.jpg";
 import bookingImg from "../public/assets/projectsImg/booking.jpg";
 import dashImg from "../public/assets/projectsImg/dashboard_s.jpg";
+import imovitoImg from "../public/assets/projectsImg/imovito.jpg";
 
 const Projects = () => {
   return (
@@ -17,6 +18,12 @@ const Projects = () => {
         </p>
         <h2 className="py-6">My Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectCard
+            title="Imovito NextJS App"
+            bgProjImg={imovitoImg}
+            techStack="HTML, CSS, React, NextJS"
+            projectUrl="/imovito"
+          />
           <ProjectCard
             title="React Booking App"
             bgProjImg={bookingImg}

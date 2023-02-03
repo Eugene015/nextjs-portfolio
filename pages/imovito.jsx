@@ -1,39 +1,38 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import expensesImg from "../public/assets/projectsBg/expenses.jpg";
+import imovitoImg from "../public/assets/projectsBg/imovito.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const Expenses = () => {
+const Booking = () => {
   return (
     <div className="w-full">
       <div className="max-w-[1240px] m-auto">
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8 hover:scale-105 ease-in duration-300">
-          <Image src={expensesImg} alt="/" />
+          <Image src={imovitoImg} alt="/" />
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto px-4 grid md:grid-cols-5 gap-2 py-16">
         <div className="col-span-4 md:pr-24">
           <div className="max-w-[1240px] w-full  pb-4">
-            <h2 className="py-2">Expenses App</h2>
-            <h3 className="py-2 text-gray-400">Educational project</h3>
-            <h3>HTML / CSS / React</h3>
+            <h2 className="py-2">Imovito NextJS App</h2>
+            <h3 className="py-2 text-gray-400">Corporate website</h3>
+            <h3>HTML / CSS (Tailwind) / React / NextJS</h3>
           </div>
-
-          <p className="py-8">
-            Educational project based on React JS technology using functional
-            components and hooks (useState, useEffect), props, npm pluging and
-            libraries.
+          <p className="py-4">
+            Imovito corporate commercial website. It is based on React JS
+            technology, using NextJS framework, npm plugins and libraries etc.
           </p>
+
           <a
-            href="https://eugene015.github.io/expenses_react_app/"
+            href="https://nextjs-imovito.vercel.app/"
             target="_blanc"
             title="Live"
           >
             <button className="px-8 py-2 mt-8 mr-8">Live</button>
           </a>
           <a
-            href="https://github.com/Eugene015/expenses_react_app"
+            href="https://github.com/Eugene015/nextjs-imovito"
             target="_blanc"
             title="Code"
           >
@@ -57,11 +56,15 @@ const Expenses = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-2" />
-                CSS
+                CSS (Tailwind)
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-2" />
                 React
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-2" />
+                NextJS
               </p>
             </div>
           </div>
@@ -71,4 +74,4 @@ const Expenses = () => {
   );
 };
 
-export default Expenses;
+export default Booking;
