@@ -28,6 +28,12 @@ const Booking = () => {
             Redux Toolkit, Material UI, Strapi Backend, Stripe Payments service,
             npm plugins, libraries, etc.
           </p>
+          <p className="py-4">
+            The project implements a product list retrieved from the backend, a
+            single product page, filtering by categories, placing orders in the
+            shopping cart, a checkout form page, payment by card, etc.
+          </p>
+
           <a
             href="https://react-shop-beryl.vercel.app/"
             target="_blanc"
