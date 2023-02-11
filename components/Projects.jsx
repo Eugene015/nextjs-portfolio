@@ -8,6 +8,7 @@ import fastcoImg from "../public/assets/projectsImg/fast.jpg";
 import bookingImg from "../public/assets/projectsImg/booking.jpg";
 import dashImg from "../public/assets/projectsImg/dashboard_s.jpg";
 import imovitoImg from "../public/assets/projectsImg/imovito.jpg";
+import reactShopImg from "../public/assets/projectsImg/react_shop.jpg";
 
 const Projects = () => {
   return (
@@ -18,6 +19,12 @@ const Projects = () => {
         </p>
         <h2 className="py-6">My Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectCard
+            title="Full Stack eCommerce App"
+            bgProjImg={reactShopImg}
+            techStack="HTML, CSS, React, Strapi"
+            projectUrl="/reactshop"
+          />
           <ProjectCard
             title="Imovito NextJS App"
             bgProjImg={imovitoImg}

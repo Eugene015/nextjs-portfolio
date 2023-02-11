@@ -12,11 +12,14 @@ import MongoDb from "../public/assets/skills/mongo.png";
 import Express from "../public/assets/skills/express.png";
 import Node from "../public/assets/skills/node.png";
 import ReduxToolkit from "../public/assets/skills/redux_purple.png";
+import Strapi from "../public/assets/skills/strapi.png";
+import Mui from "../public/assets/skills/mui.png";
+import TypeScript from "../public/assets/skills/typescript.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:h-screen p-2">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
+    <div id="skills" className="w-full lg:h-screen p-2 my-16">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full ">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills
         </p>
@@ -25,15 +28,18 @@ const Skills = () => {
           <SkillCard img={Html} skill="HTML" />
           <SkillCard img={Css} skill="CSS" />
           <SkillCard img={Tailwind} skill="TAILWIND" />
+          <SkillCard img={Mui} skill="MATERIAL UI" />
           <SkillCard img={Javascript} skill="JAVASCRIPT" />
+          <SkillCard img={TypeScript} skill="TYPESCRIPT" />
           <SkillCard img={ReactImg} skill="REACT" />
+          <SkillCard img={ReduxToolkit} skill="REDUX TOOLKIT" />
           <SkillCard img={NextJS} skill="NEXTJS" />
           <SkillCard img={Github} skill="GITHUB" />
           <SkillCard img={Firebase} skill="FIREBASE" />
           <SkillCard img={MongoDb} skill="MONGODB" />
+          <SkillCard img={Strapi} skill="STRAPI" />
           <SkillCard img={Express} skill="EXPRESS" />
           <SkillCard img={Node} skill="NODEJS" />
-          <SkillCard img={ReduxToolkit} skill="REDUX TOOLKIT" />
         </div>
       </div>
     </div>
