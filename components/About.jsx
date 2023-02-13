@@ -22,7 +22,7 @@ const About = () => {
           <p className="py-2">
             {" "}
             In 2022 I got updated with new knowledge of JavaScript ES6, ReactJS,
-            NodeJS, NextJS, MongoDB, Express, Firebase, and other modern
+            NodeJS, NextJS, MongoDB, Express, Firebase, Strapi and other modern
             technologies in web development.
           </p>
 
