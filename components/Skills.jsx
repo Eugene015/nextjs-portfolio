@@ -15,6 +15,7 @@ import ReduxToolkit from "../public/assets/skills/redux_purple.png";
 import Strapi from "../public/assets/skills/strapi.png";
 import Mui from "../public/assets/skills/mui.png";
 import TypeScript from "../public/assets/skills/typescript.png";
+import Cloudinary from "../public/assets/skills/cloudinary.png";
 
 const Skills = () => {
   return (
@@ -38,6 +39,7 @@ const Skills = () => {
           <SkillCard img={Firebase} skill="FIREBASE" />
           <SkillCard img={MongoDb} skill="MONGODB" />
           <SkillCard img={Strapi} skill="STRAPI" />
+          <SkillCard img={Cloudinary} skill="CLOUDINARY" />
           <SkillCard img={Express} skill="EXPRESS" />
           <SkillCard img={Node} skill="NODEJS" />
         </div>
