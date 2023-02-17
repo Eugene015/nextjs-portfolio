@@ -7,14 +7,14 @@ import { RiRadioButtonFill } from "react-icons/ri";
 const Expenses = () => {
   return (
     <div className="w-full">
-      <div className="max-w-[1240px] m-auto">
+      <div className="max-w-[1080px] m-auto">
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8 hover:scale-105 ease-in duration-300">
           <Image src={expensesImg} alt="/" />
         </div>
       </div>
-      <div className="max-w-[1240px] mx-auto px-4 grid md:grid-cols-5 gap-2 py-16">
+      <div className="max-w-[1080px] mx-auto px-4 grid md:grid-cols-5 gap-2 py-16">
         <div className="col-span-4 md:pr-24">
-          <div className="max-w-[1240px] w-full  pb-4">
+          <div className="max-w-[1080px] w-full  pb-4">
             <h2 className="py-2">Expenses App</h2>
             <h3 className="py-2 text-gray-400">Educational project</h3>
             <h3>HTML / CSS / React</h3>
