@@ -9,6 +9,7 @@ import bookingImg from "../public/assets/projectsImg/booking.jpg";
 import dashImg from "../public/assets/projectsImg/dashboard_s.jpg";
 import imovitoImg from "../public/assets/projectsImg/imovito.jpg";
 import reactShopImg from "../public/assets/projectsImg/react_shop.jpg";
+import landServiceImg from "../public/assets/projectsImg/landservice.jpg";
 
 const Projects = () => {
   return (
@@ -20,6 +21,12 @@ const Projects = () => {
         <h2 className="py-6">My Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectCard
+            title="Full Stack LandService App"
+            bgProjImg={landServiceImg}
+            techStack="HTML, CSS, NextJS, Firebase"
+            projectUrl="/landservice"
+          />
+          <ProjectCard
             title="Full Stack eCommerce App"
             bgProjImg={reactShopImg}
             techStack="HTML, CSS, React, Strapi"
@@ -28,7 +35,7 @@ const Projects = () => {
           <ProjectCard
             title="Imovito NextJS App"
             bgProjImg={imovitoImg}
-            techStack="HTML, CSS, React, NextJS"
+            techStack="HTML, CSS, NextJS"
             projectUrl="/imovito"
           />
           <ProjectCard
@@ -58,7 +65,7 @@ const Projects = () => {
           <ProjectCard
             title="Products List"
             bgProjImg={productImg}
-            techStack="HTML, CSS, React"
+            techStack="HTML, CSS, React, TypeScript"
             projectUrl="/productlist"
           />
           <ProjectCard

@@ -9,7 +9,7 @@ import Github from "../public/assets/skills/github1.png";
 import Firebase from "../public/assets/skills/firebase.png";
 import NextJS from "../public/assets/skills/nextjs.png";
 import MongoDb from "../public/assets/skills/mongo.png";
-import Express from "../public/assets/skills/express.png";
+import Express from "../public/assets/skills/expressjs.png";
 import Node from "../public/assets/skills/node.png";
 import ReduxToolkit from "../public/assets/skills/redux_purple.png";
 import Strapi from "../public/assets/skills/strapi.png";
