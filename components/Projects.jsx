@@ -77,7 +77,7 @@ const Projects = () => {
           <ProjectCard
             title="Zemlevporyadnik"
             bgProjImg={zemImg}
-            techStack="HTML, CSS, jQuery"
+            techStack="HTML, CSS, JavaScript"
             projectUrl="/zemlevporyadnik"
           />
         </div>

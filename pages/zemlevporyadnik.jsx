@@ -17,7 +17,7 @@ const Zemlevporyadnik = () => {
           <div className="max-w-[1080px] w-full  pb-4">
             <h2 className="py-2">Zemlevporyadnik</h2>
             <h3 className="py-2 text-gray-400">Corporate website</h3>
-            <h3>HTML / CSS / jQuery</h3>
+            <h3>HTML / CSS / JavaScript</h3>
           </div>
 
           <p className="py-8">
@@ -30,10 +30,11 @@ const Zemlevporyadnik = () => {
             >
               zemlevporyadnik.com.ua
             </a>{" "}
-            based on a clean HTML, CSS, and jQuery stack. It is quite fast and
-            lightweight, with valuable and relevant content. It has leading
-            positions in its niche and up to 6500 unique users per day of
-            organic Google traffic.
+            based on a clean HTML, CSS, and JavaScript stack. It is quite fast
+            and lightweight, with valuable and relevant content. It has up to
+            100 scores in google page speed tests and leading positions in its
+            niche with up to 6500 unique users per day of organic Google
+            traffic.
           </p>
           <a
             href="https://zemlevporyadnik.com.ua/"
@@ -66,7 +67,7 @@ const Zemlevporyadnik = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-2" />
-                jQuery
+                JavaScript
               </p>
             </div>
           </div>
