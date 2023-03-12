@@ -66,7 +66,7 @@ const Contacts = () => {
                     </div>
                   </a>
                   <a
-                    href="https://drive.google.com/file/d/1GFZc7vBrcVHkMsPPjHrzvWAQWB1a1J-2/view?usp=share_link"
+                    href="https://drive.google.com/file/d/1scM-tNOwUIXiPLTyIoBkz_aUWPitn2qN/view?usp=sharing"
                     target="_blanc"
                     title="My CV"
                   >
