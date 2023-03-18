@@ -16,6 +16,7 @@ import Strapi from "../public/assets/skills/strapi.png";
 import Mui from "../public/assets/skills/mui.png";
 import TypeScript from "../public/assets/skills/typescript.png";
 import Cloudinary from "../public/assets/skills/cloudinary.png";
+import Scss from "../public/assets/skills/scss.png";
 
 const Skills = () => {
   return (
@@ -30,6 +31,7 @@ const Skills = () => {
           <SkillCard img={Css} skill="CSS" />
           <SkillCard img={Tailwind} skill="TAILWIND" />
           <SkillCard img={Mui} skill="MATERIAL UI" />
+          <SkillCard img={Scss} skill="SCSS" />
           <SkillCard img={Javascript} skill="JAVASCRIPT" />
           <SkillCard img={TypeScript} skill="TYPESCRIPT" />
           <SkillCard img={ReactImg} skill="REACT" />
