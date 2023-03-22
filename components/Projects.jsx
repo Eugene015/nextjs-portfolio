@@ -39,6 +39,12 @@ const Projects = () => {
             projectUrl="/imovito"
           />
           <ProjectCard
+            title="Zemlevporyadnik"
+            bgProjImg={zemImg}
+            techStack="HTML, CSS, JavaScript"
+            projectUrl="/zemlevporyadnik"
+          />
+          <ProjectCard
             title="React Booking App"
             bgProjImg={bookingImg}
             techStack="HTML, CSS, MongoDB, Express, React, Node"
@@ -73,12 +79,6 @@ const Projects = () => {
             bgProjImg={tasksImg}
             techStack="HTML, CSS, React"
             projectUrl="/todolist"
-          />
-          <ProjectCard
-            title="Zemlevporyadnik"
-            bgProjImg={zemImg}
-            techStack="HTML, CSS, JavaScript"
-            projectUrl="/zemlevporyadnik"
           />
         </div>
       </div>
