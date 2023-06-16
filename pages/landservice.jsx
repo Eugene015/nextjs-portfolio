@@ -17,28 +17,26 @@ const Booking = () => {
           <div className="max-w-[1080px] w-full  pb-4">
             <h2 className="py-2">Full Stack LandService App</h2>
             <h3 className="py-2 text-gray-400">Corporate Consulting website</h3>
-            <h3>HTML / CSS (Tailwind) / NextJS / Firebase</h3>
+            <h3>HTML / CSS (Tailwind) / NextJS / Strapi</h3>
           </div>
           <p className="py-4">
             Landservice application is a commercial project consuming Ukrainian
             cadastral database information. It allows you to find information
-            about your land plot in Ukraine. If the information found has
-            mistakes, you will be notified by displaying extra info components
-            on the screen.
+            about your land plot in Ukraine and gives you suggestions if the
+            information has mistakes. Map with land plot polygon is available in
+            search results as well. The service has its dashboard for
+            administrators&apos; use only. It displays a search queries log,
+            user requests, and users feedbacks.
           </p>
           <p className="pb-4">
             The application is fully responsive. It is based on NextJS
-            technology, using Firebase, npm plugins and libraries, etc. Tailwind
-            CSS is used for styling. Formik and Yup are used for form
+            technology, using Strapi backend, npm plugins, and libraries, etc.
+            Tailwind CSS is used for styling. Formik and Yup are used for form
             validation. Incoming data is validated by native JavaScript.
           </p>
 
-          <a
-            href="https://landservice.vercel.app/"
-            target="_blanc"
-            title="Live"
-          >
-            <button className="px-8 py-2 mt-8 mr-8">Live</button>
+          <a href="https://land-service.com.ua/" target="_blanc" title="Live">
+            <button className="px-8 py-2 mt-8 mr-8">land-service.com.ua</button>
           </a>
 
           <Link href="/#projects">
@@ -67,7 +65,7 @@ const Booking = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-2" />
-                Firebase
+                Strapi
               </p>
             </div>
           </div>

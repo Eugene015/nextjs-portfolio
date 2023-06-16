@@ -23,7 +23,7 @@ const Projects = () => {
           <ProjectCard
             title="Full Stack LandService App"
             bgProjImg={landServiceImg}
-            techStack="HTML, CSS, NextJS, Firebase"
+            techStack="HTML, CSS, NextJS, Strapi"
             projectUrl="/landservice"
           />
           <ProjectCard
