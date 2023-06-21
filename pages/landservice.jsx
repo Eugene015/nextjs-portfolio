@@ -15,18 +15,18 @@ const Booking = () => {
       <div className="max-w-[1080px] mx-auto px-4 grid md:grid-cols-5 gap-2 py-16">
         <div className="col-span-4 md:pr-24">
           <div className="max-w-[1080px] w-full  pb-4">
-            <h2 className="py-2">Full Stack LandService App</h2>
+            <h2 className="py-2">Full Stack KadastrService App</h2>
             <h3 className="py-2 text-gray-400">Corporate Consulting website</h3>
             <h3>HTML / CSS (Tailwind) / NextJS / Strapi</h3>
           </div>
           <p className="py-4">
-            Landservice application is a commercial project consuming Ukrainian
-            cadastral database information. It allows you to find information
-            about your land plot in Ukraine and gives you suggestions if the
-            information has mistakes. Map with land plot polygon is available in
-            search results as well. The service has its dashboard for
-            administrators&apos; use only. It displays a search queries log,
-            user requests, and users feedbacks.
+            KadastrService application is a commercial project consuming
+            Ukrainian cadastral database information. It allows you to find
+            information about your land plot in Ukraine and gives you
+            suggestions if the information has mistakes. Map with land plot
+            polygon is available in search results as well. The service has its
+            dashboard for administrators&apos; use only. It displays a search
+            queries log, user requests, and users feedbacks.
           </p>
           <p className="pb-4">
             The application is fully responsive. It is based on NextJS
@@ -35,8 +35,14 @@ const Booking = () => {
             validation. Incoming data is validated by native JavaScript.
           </p>
 
-          <a href="https://land-service.com.ua/" target="_blanc" title="Live">
-            <button className="px-8 py-2 mt-8 mr-8">land-service.com.ua</button>
+          <a
+            href="https://kadastr-service.com.ua/"
+            target="_blanc"
+            title="Live"
+          >
+            <button className="px-8 py-2 mt-8 mr-8">
+              kadastr-service.com.ua
+            </button>
           </a>
 
           <Link href="/#projects">

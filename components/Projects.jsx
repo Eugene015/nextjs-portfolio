@@ -21,7 +21,7 @@ const Projects = () => {
         <h2 className="py-6">My Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectCard
-            title="Full Stack LandService App"
+            title="Full Stack KadastrService App"
             bgProjImg={landServiceImg}
             techStack="HTML, CSS, NextJS, Strapi"
             projectUrl="/landservice"
