@@ -35,6 +35,7 @@ const Skills = () => {
           <SkillCard img={Javascript} skill="JAVASCRIPT" />
           <SkillCard img={TypeScript} skill="TYPESCRIPT" />
           <SkillCard img={ReactImg} skill="REACT" />
+          <SkillCard img={ReactImg} skill="REACT NATIVE" />
           <SkillCard img={ReduxToolkit} skill="REDUX TOOLKIT" />
           <SkillCard img={NextJS} skill="NEXTJS" />
           <SkillCard img={Github} skill="GITHUB" />
