@@ -20,7 +20,7 @@ import Scss from "../public/assets/skills/scss.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:h-screen p-2 my-16">
+    <div id="skills" className="w-full lg:h-screen p-2 mb-24">
       <div className="max-w-[1080px] mx-auto flex flex-col justify-center h-full ">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills

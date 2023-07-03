@@ -13,8 +13,8 @@ import landServiceImg from "../public/assets/projectsImg/landservice.jpg";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full">
-      <div className="max-w-[1080px] mx-auto px-2 py-16">
+    <div id="projects" className="w-full py-16">
+      <div className="max-w-[1080px] mx-auto px-2">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
