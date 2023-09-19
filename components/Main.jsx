@@ -44,7 +44,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="https://drive.google.com/file/d/12HRpv4m2jobymBNVjx-gVE0o0Cssg9DZ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1n83yCiADIZ3nrBLKf4vrWF1597BMvSgA/view?usp=sharing"
               target="_blanc"
               title="My CV"
             >
